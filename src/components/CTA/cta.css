@@ -1,0 +1,92 @@
+.gpt3__cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 2rem;
+  margin: 6rem;
+  background: var(--gradient-bar);
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.gpt3__cta-content {
+  margin: 1rem 0;
+}
+
+.gpt3__cta-content p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+
+  color: var(--color-footer);
+}
+
+.gpt3__cta-content h3 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 45px;
+  color: black;
+}
+
+.gpt3__cta-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.gpt3__cta-btn button {
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+
+  color: white;
+  background-color: var(--color-bg);
+
+  min-width: 180px;
+  padding: 1rem 2rem 1rem;
+  outline: none;
+  border: none;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+
+@media screen and (max-width: 990px) {
+  .gpt3__cta {
+    flex-direction: column;
+    padding: 2rem;
+    margin: 2rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .gpt3__cta {
+    flex-direction: column;
+  }
+
+  .gpt3__cta-btn {
+    margin: 1rem 0 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .gpt3__cta-content h3 {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .gpt3__cta-btn button {
+    font-size: 14px;
+    line-height: 28px;
+  }
+}
